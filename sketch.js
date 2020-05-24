@@ -53,7 +53,7 @@ function draw(){
     
     fill("blue");
     textStyle(BOLD);
-    textFont("futura");
+   // textFont("futura");
     textSize(52);
     text("CRUMPLED BALLS -3",385,45);
 }
