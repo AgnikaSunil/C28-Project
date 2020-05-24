@@ -37,12 +37,6 @@ function draw(){
 
     //text(mouseX+","+mouseY,200,200);
 
-    fill("blue");
-    textFont("futura");
-    textSize(52);
-    text("CRUMPLED BALLS -3",385,45);
-
-    
     ground.display();
     crumpledPaper.display();
     binPart1.display();
@@ -56,6 +50,12 @@ function draw(){
     text("''CLEAN''",600,590);
 
     drawSprites();
+    
+    fill("blue");
+    textStyle(BOLD);
+    textFont("futura");
+    textSize(52);
+    text("CRUMPLED BALLS -3",385,45);
 }
 
 /*function keyPressed(){
