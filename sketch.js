@@ -52,7 +52,7 @@ function draw(){
     fill("black");
     textSize(50);
     textFont("signPainter");
-    text("launch the crumpled ball into the dustbin to keep your city",160,550);
+    text("launch the crumpled ball into the dustbin to keep your city",100,550);
     text("''CLEAN''",600,590);
 
     drawSprites();
